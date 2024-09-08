@@ -1,0 +1,180 @@
+
+.dataTable {
+  width: 100%;
+  border-collapse: collapse; /* Collapse borders between cells */
+}
+
+/* Table Header Cells */
+.dataTable th {
+  padding: 10px;
+  border: 1px solid #ddd; /* Border for table header cells */
+  background-color: #f2f2f2; /* Light grey for table header */
+  text-align: left;
+}
+
+/* Table Data Cells */
+.dataTable td {
+  padding: 10px;
+  border: 1px solid #ddd; /* Border for table data cells */
+  text-align: left;
+}
+
+/* Dropdown Table Styles */
+.dropdown table {
+  width: 100%;
+  border-collapse: collapse; /* Collapse borders between cells */
+}
+
+.dropdown th, .dropdown td {
+  padding: 8px;
+  border: 1px solid #ddd; /* Border for nested table cells */
+}
+
+/* Optional: Add padding or margin for better spacing */
+.dropdown {
+  margin-top: 10px;
+}
+
+/* Container Styles */
+.container {
+  background-color: #f5f5f5; /* Slightly grey background */
+  padding: 20px;
+}
+
+/* Header Styles */
+.header {
+  background-color: #007bff; /* Primary color for headers */
+  color: #ffffff;
+  padding: 10px;
+  font-weight: bold;
+}
+
+/* Tables Wrapper */
+.tablesWrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* Table Container */
+.tableContainer {
+  flex: 1;
+  background-color: #ffffff; /* White background for tables */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd; /* Light border around table container */
+}
+
+/* Table Container Header */
+.tableContainer h2 {
+  background-color: #007bff; /* Header background color */
+  color: #ffffff;
+  padding: 10px;
+  margin: 0;
+  font-weight: bold;
+}
+
+/* Table Styles */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th, .table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.table th {
+  background-color: #f2f2f2; /* Light grey for table header */
+  font-weight: bold;
+}
+
+/* Dropdown Container Styles */
+.dropdownContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+/* Dropdown Styles */
+.dropdown {
+  margin: 10px;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Nested Table Styles */
+.nestedTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.nestedTable th, .nestedTable td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+.nestedTable th {
+  background-color: #e9ecef; /* Light grey for nested table headers */
+}
+
+/* Label Styles */
+.label {
+  cursor: pointer;
+}
+
+/* Count Styles */
+.count {
+  text-align: right;
+}
+
+/* Section colors */
+.job-seeker-servicing-type {
+  background-color: #0056b3; /* Darker color for Job Seeker Servicing Type */
+  color: #ffffff;
+  border: 1px solid #004494;
+}
+
+.work-for-the-dole {
+  background-color: #007bff; /* Lighter color for Work for the Dole */
+  color: #ffffff;
+  border: 1px solid #0066cc;
+}
+
+.commenced-wfd-coded,
+.pnd-wfd-coded,
+.sus-wfd-coded,
+.wfd-expired,
+.commenced-wfd-not-coded,
+.suspended-wfd-not-coded,
+.commenced-jsci-not-updated,
+.commenced-resume-not-updated {
+  background-color: #b3d9ff; /* Even lighter color for these rows */
+  border: 1px solid #99c2ff;
+}
+
+.job-plans {
+  background-color: #ff6600; /* Different color for Job Plans section */
+  color: #ffffff;
+  border: 1px solid #cc5200;
+}
+
+.job-plans-item {
+  background-color: #ff9900; /* Lighter color for Job Plans items */
+  border: 1px solid #ff8000;
+}
+
+.employment {
+  background-color: #009900; /* Different color for Employment section */
+  color: #ffffff;
+  border: 1px solid #007700;
+}
+
+.employment-item {
+  background-color: #00cc00; /* Lighter color for Employment items */
+  border: 1px solid #009900;
+}

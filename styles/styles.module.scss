@@ -1,0 +1,71 @@
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Full viewport height */
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+.header {
+  text-align: center;
+  font-size: 2rem;
+  color: #0070f3;
+  margin-bottom: 30px;
+}
+
+.tableWrapper {
+  flex: 1; /* This makes the tableWrapper take up all available space */
+  overflow: hidden; /* Hide any overflow in the wrapper */
+  display: flex;
+  flex-direction: column;
+}
+
+.tableContainer {
+  overflow-x: auto; /* Allow horizontal scrolling */
+  overflow-y: hidden; /* Prevent vertical scrolling if not needed */
+  background-color: #fff; /* Background color to cover any underlying content */
+  position: sticky; /* Stick the container to the bottom */
+  bottom: 0; /* Stick to the bottom of the viewport */
+  width: 100%; /* Full width */
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  min-width: 100%; /* Ensure table width is at least 100% */
+}
+
+.tableHead {
+  background-color: #0070f3;
+  color: #fff;
+}
+
+.tableHead th {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 2px solid #eaeaea;
+}
+
+.tableBody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.tableBody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.tableBody td {
+  padding: 15px;
+  border-bottom: 1px solid #eaeaea;
+  text-align: left;
+}
+
+.tableBody td:last-child {
+  text-align: right;
+}

@@ -1,0 +1,64 @@
+
+.container {
+  background-color: #f5f5f5; /* Slightly grey background */
+  padding: 20px;
+}
+
+/* Header Styles */
+.header {
+  background-color: #007bff; /* Primary color for headers */
+  color: #ffffff;
+  padding: 10px;
+  font-weight: bold;
+}
+
+/* Tables Wrapper */
+.tablesWrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* Table Container */
+.tableContainer {
+  flex: 1;
+  background-color: #ffffff; /* White background for tables */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd; /* Light border around table container */
+}
+
+/* Table Header */
+.tableContainer h2 {
+  background-color: #007bff; /* Header background color */
+  color: #ffffff;
+  padding: 10px;
+  margin: 0;
+  font-weight: bold;
+}
+
+/* Table Styles */
+.table {
+  width: 100%;
+  border-collapse: collapse; /* Collapse borders between cells */
+}
+
+/* Table Header Cells */
+.table th {
+  padding: 10px;
+  border: 1px solid #ddd; /* Border for table header cells */
+  background-color: #f2f2f2; /* Light grey for table header */
+  font-weight: bold;
+}
+
+/* Table Data Cells */
+.table td {
+  padding: 10px;
+  border: 1px solid #ddd; /* Border for table data cells */
+  text-align: left;
+}
+
+/* Add specific class for bordered statistics if needed */
+.borderedCell {
+  border: 2px solid #007bff; /* Change border color as needed */
+}
