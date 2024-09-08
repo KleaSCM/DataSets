@@ -1,0 +1,51 @@
+we need to do the following 
+
+count the number of clients have Y and N that apear under the ESL column 
+
+count the number of clients that have a C for JS10 
+count the number of clients that are missing a C for JS10 
+count the number of COM clients 
+count the number of PND clients 
+count the number of SUS clients 
+count the number of clients who have Full Time Activity Test, Voluntary and Part Time Participation under MUTUAL_OBLIGATION_REQUIREMENT
+count the number of clients who have Y under IN_WFD_ACTIVITY_FLAG and count the number of clients that have N under IN_WFD_ACTIVITY_FLAG
+
+
+
+this data needs to be displayed in a table 
+
+
+
+we need to count the number of clients that have these codes PCP, PWC
+we need to calculate the avrage age of all the clients 
+we need to count the number of clients over the age of 55
+we need to count the number of cleints under the age of 18
+we need to know the number of cleints with A under JOB_PLAN_STATUS if the also COM under status 
+we need to know the number of cleints with A under JOB_PLAN_STATUS if the also have SUS
+we need to know the number of clients missing  A if the also COM under status 
+need to know the number of clients missing C under AI12 if the also have COM under status 
+
+
+count clients with COM with JS09_TYPE C
+count clients with COM with JS09_TYPE V
+count client with COM who are missing JS09_TYPE
+count the number of clients with ET60
+clients with COM and with expired WE12_END_DATE (more than 3 months before the current date) 
+count nuber of clients with COM and Y for LLN_REQUIRED
+count number of clients with COM and that have Y for S05	AS11	AS15	AS16	AS17
+count number of clients with COM and missing S05	AS11	AS15	AS16	AS17
+count number of clients with COM and that have Y for CCA_IN_PROGRESS
+count number of clients with COM missing  a Job_Plan_Goal
+count clients with SUS with JS09_TYPE C
+count clients with SUS with JS09_TYPE V
+count client with SUS who are missing JS09_TYPE
+count the number of clients with SUS and ET60
+clients with SUS and with expired WE12_END_DATE (more than 3 months before the current date) 
+count nuber of clients with SUS and Y for LLN_REQUIRED
+count number of clients with SUS and that have Y for S05	AS11	AS15	AS16	AS17
+count number of clients with SUS and missing S05	AS11	AS15	AS16	AS17
+count number of clients with SUS and that have Y for CCA_IN_PROGRESS
+count number of clients with SUS missing  a Job_Plan_Goal
+
+
+
